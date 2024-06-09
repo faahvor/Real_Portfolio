@@ -558,68 +558,56 @@ video {
   position: fixed;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.mt-\[20px\] {
-  margin-top: 20px;
-}
-
-.mt-\[2rem\] {
-  margin-top: 2rem;
-}
-
-.mt-\[4rem\] {
-  margin-top: 4rem;
-}
-
-.mt-\[6rem\] {
-  margin-top: 6rem;
 }
 
 .ml-9 {
   margin-left: 2.25rem;
 }
 
+.ml-\[9rem\] {
+  margin-left: 9rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .flex {
   display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[43rem\] {
+  width: 43rem;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[16rem\] {
+  width: 16rem;
+}
+
+.w-\[24rem\] {
+  width: 24rem;
+}
+
+.w-\[22rem\] {
+  width: 22rem;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
 }
 
 .-rotate-90 {
@@ -633,22 +621,6 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-\[3rem\] {
-  gap: 3rem;
-}
-
-.gap-\[8rem\] {
-  gap: 8rem;
-}
-
-.gap-\[6rem\] {
-  gap: 6rem;
 }
 
 .gap-\[4rem\] {
@@ -666,14 +638,13 @@ video {
   background-color: rgb(254 212 58 / var(--tw-bg-opacity));
 }
 
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.pt-\[6rem\] {
+  padding-top: 6rem;
 }
 
 .font-oswald {
@@ -685,14 +656,32 @@ video {
   line-height: 2rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[4rem\] {
+  font-size: 4rem;
 }
 
 .font-semibold {
   font-weight: 600;
 }
 
-/* .rot{
-    transform: rotate(-180deg);
-} */
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text {
+  font-size: 4rem;
+  text-shadow: 4px 4px 0px #ffff;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

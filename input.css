@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .rot{
-    transform: rotate(-180deg);
-} */
+.text {
+  font-size: 4rem;
+  text-shadow: 4px 4px 0px #ffff;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
