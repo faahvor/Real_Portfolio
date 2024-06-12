@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 .text {
-  font-size: 4rem;
-  text-shadow: 4px 4px 0px #ffff;
+  text-shadow: 2px 2px 0px #ffff;
   mix-blend-mode: screen;
   animation: fadeIn 2.5s linear forwards;
 }
@@ -17,4 +16,13 @@
     100% {
         opacity: 1;
     }
+}
+.img{
+    @apply bg-[#3e4cce] rounded-xl h-full w-full bg-opacity-70 hover:bg-[#141C3A];
+}
+.first{
+    @apply text-[30px] font-bold text-white;
+}
+.change{
+    @apply text-lg text-center text-[#6E07F3] ;
 }
