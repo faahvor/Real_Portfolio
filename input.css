@@ -21,8 +21,8 @@
     @apply bg-[#3e4cce] rounded-xl h-full w-full bg-opacity-70 hover:bg-[#141C3A];
 }
 .first{
-    @apply text-[30px] font-bold text-white;
+    @apply text-[30px] font-bold text-[#e9e9e9];
 }
 .change{
-    @apply text-lg text-center text-[#6E07F3] ;
+    @apply text-lg text-center text-[#6E07F3] px-[4rem];
 }
